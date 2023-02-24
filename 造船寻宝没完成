@@ -1,0 +1,25 @@
+local kavoUi = loadstring(game:HttpGet(""))()
+local window =kavoUi.CreateLib("Main Title","Synapse")
+
+----Tabs
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+local Tab2 = window:NewTab("more")
+local Tab2Section = Tab2:NewSection("moremod")
+
+---Buttons
+
+Tab1Section:NewButton("Write Name Of Script - 自动农厂", "Write what it do - Just Auto Farm") function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ExyXyz/ExyGantenk/main/ExyBABFT"))(
+
+Tab1Section:NewButton("Write Name Of Script - 飞", "Write what it do - you can fly") function()
+loadstring(game:HttpGet("https://pastebin.com/raw/zCcNFGaj"))()
+
+Tab1Section:NewButton("Write Name Of Script - 复制船", "Write what it do - copy boat") function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/VertigoCool99/Script/main/BuildABoat/BuildABoatRestored.lua"),true))()
+
+Tab1Section:NewButton("Write Name Of Script - 管理员", "Write what it do - admin") function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hypeploits/Hypeploits/main/ADMIN%20INFINTE%20YIELD"))()
+
+Tab2Section:NewButton("Write Name Of Script - 还没东西", "Write what it do - nothing") function()
