@@ -1,4 +1,4 @@
-local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Paytowin918/Pet-simulator-x-/main/%E9%80%A0%E8%88%B9%E5%AF%BB%E5%AE%9D%E6%B2%A1%E5%AE%8C%E6%88%90"))()
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Paytowin918/Pet-simulator-x-/main/Lol0"))()
 local window =kavoUi.CreateLib("Main Title","Synapse")
 
 ----Tabs
