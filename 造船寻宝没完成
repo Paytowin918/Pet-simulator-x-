@@ -1,7 +1,7 @@
 local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Paytowin918/Pet-simulator-x-/main/Lol0"))()
 local window =kavoUi.CreateLib("Main Title","Synapse")
 
-----Tabs
+---Tabs
 
 local Tab1 = window:NewTab("Main")
 local Tab1Section = Tab1:NewSection("Main")
@@ -23,3 +23,4 @@ Tab1Section:NewButton("Write Name Of Script - 管理员", "Write what it do - ad
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hypeploits/Hypeploits/main/ADMIN%20INFINTE%20YIELD"))()
 
 Tab2Section:NewButton("Write Name Of Script - 还没东西", "Write what it do - nothing") function()
+end) 
